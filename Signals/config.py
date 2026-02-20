@@ -1,0 +1,9 @@
+Fs = 500e3          # Sampling frequency
+Fc = 100e3          # Carrier frequency
+IF = 10.7e3         # Intermediate frequency
+B = 5e3             # Baseband bandwidth
+beta_nbfm = 0.2
+beta_wbfm = 10
+BW_AM = 2 * B
+BW_NBFM = 2 * (B + beta_nbfm * B)
+BW_WBFM = 2 * beta_wbfm * B

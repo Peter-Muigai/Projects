@@ -1,0 +1,4 @@
+In Python you can learn functions wich are really cool.
+In Python you can learn variables.
+In Python you can learn object oriented programming.
+In Python you can learn looping and iteration.

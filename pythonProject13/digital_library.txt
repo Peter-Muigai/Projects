@@ -1,0 +1,69 @@
+
+Assignment: Build a Mini Digital Library System
+
+Project Description:
+You're tasked with designing a Digital Library System where users can register, log in, and manage their personal borrowing activity. Your system should:
+- Handle multiple users
+- Let users borrow/return books
+- Keep track of who borrowed what
+- Display available and borrowed books
+- Allow logged-in users to view their own borrowed books
+
+Required Classes and Responsibilities:
+
+1. Book
+- Attributes: title, author, borrowed_by
+- Method: __str__() for printing book details
+
+2. User
+- Attributes: username, password, borrowed_books (list)
+- Methods: borrow(book), return_book(book)
+
+3. Library
+- Attributes: books (list), users (list)
+- Methods:
+  - add_book(title, author)
+  - register_user(username, password)
+  - login_user(username, password)
+  - borrow_book(title, user)
+  - return_book(title, user)
+  - display_books()
+
+Features Your Program Must Support:
+
+Account Handling:
+- User Registration (no duplicate usernames)
+- User Login with password validation
+- Logout
+
+Book Management:
+- Add books (any user)
+- Borrow books (only available ones)
+- Return books (only if user had borrowed it)
+- Display:
+  - All books with their status
+  - Books borrowed by current user
+
+Menu Navigation:
+Use a menu loop after login for actions like:
+1. Add Book
+2. Borrow Book
+3. Return Book
+4. Display All Books
+5. View My Borrowed Books
+6. Logout
+
+BONUS (optional):
+- Save books and users to a file
+- Reload them at program start
+- Hide password when typing (getpass module)
+- Assign a role to users (admin vs reader)
+
+What to Submit:
+1. Your complete Python code in a .py file
+2. (Optional) A text file of sample book entries you used
+3. A screenshot or short explanation of how you tested it
+
+Recommended Deadline: 2–3 days
+
+Good luck Peter! 🚀

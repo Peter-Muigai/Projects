@@ -1,0 +1,10 @@
+Class Average: 53.80
+
+✅ Passed Students:
+peter - 89.0
+John - 67.0
+Mark - 56.0
+
+❌ Failed Students:
+Paul - 34.0
+Wairimu - 23.0
